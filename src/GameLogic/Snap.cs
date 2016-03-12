@@ -139,10 +139,10 @@ namespace CardGames.GameLogic
 			{
 				_score[player]++;
 			}
-			else if ( player >= 0 && player < _score.Length) 
+			else if ( player >= 0 && player < _score.Length)
 			{
-				_score[player]--; 
-			}
+				_score[player]--;	
+			}			
 
 			// stop the game...
 			_started = false;
@@ -181,4 +181,5 @@ namespace CardGames.GameLogic
 		#endregion
 	}
 }
+
 

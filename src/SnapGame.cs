@@ -31,20 +31,20 @@ namespace CardGames
 
 			if (myGame.IsStarted)
 			{
-				if ( SwinGame.KeyTyped (KeyCode.vk_LSHIFT) &&
-					 SwinGame.KeyTyped (KeyCode.vk_RSHIFT)) 
+				if (SwinGame.KeyTyped (KeyCode.vk_LSHIFT) &&
+				    SwinGame.KeyTyped (KeyCode.vk_RSHIFT))
 				{
-					//TODO: add sound effects 
+					//TODO: Add sound effects
 				}
-				else if (SwinGame.KeyTyped (KeyCode.vk_LSHIFT)) 
+				else if (SwinGame.KeyTyped (KeyCode.vk_LSHIFT))
 				{
-				myGame.PlayerHit (0); 
+				myGame.PlayerHit (0);
 				}
-				else if (SwinGame.KeyTyped (KeyCode.vk_RSHIFT)) 
+				else if (SwinGame.KeyTyped (KeyCode.vk_RSHIFT))
 				{
-					myGame.PlayerHit (1); 
+					myGame.PlayerHit (1);
 				}
-			} 
+			}
 		}
 
 		/// <summary>
@@ -104,5 +104,6 @@ namespace CardGames
 				UpdateGame (myGame);
             }
         }
-    }
+   }
 }
+
