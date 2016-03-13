@@ -26,7 +26,7 @@ namespace CardGames
 		
 			if (SwinGame.KeyTyped (KeyCode.vk_SPACE))
 			{
-				myGame.FlipNextCard ();
+				myGame.Start ();
 			}
 
 			if (myGame.IsStarted)
@@ -105,5 +105,7 @@ namespace CardGames
             }
         }
    }
+
 }
+
 
